@@ -1,0 +1,29 @@
+.spacer {
+  flex: 1 1 auto;
+}
+.flex-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.ul-layout {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+/*
+display: flex;
+flex-direction: row // fxLayout
+flex-wrap: wrap //fxLayout
+box-sizing: border-box;
+align-content: stretch, // fxLayoutAlign
+align-items: stretch, // fxLayoutAlign
+justify-content: flex-start, // fxLayoutAlign
+*/
+
+/*since @angular/flexLayout is deprecated, we have to use the css equivalent properties*/
+
+li {
+  list-style-type: none;
+}

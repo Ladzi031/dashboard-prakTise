@@ -1,0 +1,12 @@
+<app-header (toggleSide)="receiveMessage($event)"></app-header>
+<mat-drawer-container>
+  <mat-drawer mode="side" [opened]="sideBarOpen">
+    <app-sidebar></app-sidebar>
+  </mat-drawer>
+  <mat-drawer-content class="the-mat-drawer-content">
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>
+<app-footer></app-footer>
+
+<!--so all 'children components/routes' of this component will be rendered inside this router-outlet-->

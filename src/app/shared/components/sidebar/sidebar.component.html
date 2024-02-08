@@ -1,0 +1,32 @@
+<mat-nav-list>
+  <div class="profile-card">
+    <div class="header">
+      <h2>Ladzani Bengane</h2>
+      <h4>example&#64;gmail.com</h4>
+    </div>
+    <img src="../../../../assets/images/myPic.jpg" alt="logged in user image" />
+  </div>
+  <mat-divider></mat-divider>
+  <h2 matSubheader>Pages</h2>
+  <a mat-list-item routerLink="/" routerLinkActive="list-item-active"
+    >Dashboard</a
+  >
+  <a mat-list-item routerLink="/posts" routerLinkActive="list-item-active"
+    >Posts</a
+  >
+  <a mat-list-item routerLink="/articles" routerLinkActive="list-item-active"
+    >Articles</a
+  >
+  <!--component doesn't exists yet-->
+  <mat-divider></mat-divider>
+
+  <h2 matSubheader>Tools</h2>
+  <a mat-list-item routerLink="/contacts" routerLinkActive="list-item-active">
+    <mat-icon>import_contacts</mat-icon>
+    Contacts
+  </a>
+  <a mat-list-item routerLink="/contacts" routerLinkActive="list-item-active">
+    <mat-icon>contact_phone</mat-icon>
+    Leads
+  </a>
+</mat-nav-list>
